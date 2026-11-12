@@ -12,17 +12,17 @@
 :root{color-scheme:light;--paper:#f7f6ef;--ink:#172923;--muted:#4d6057;--green:#174c38;--dark:#13392c;--line:#d3d9cd;--lime:#dcf292;--mono:"IBM Plex Mono",monospace}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 "Instrument Sans",system-ui,sans-serif}a{color:var(--green);text-underline-offset:.22em}a:focus-visible,summary:focus-visible{outline:3px solid #b27219;outline-offset:5px}.wrap{width:min(1120px,calc(100% - 64px));margin:auto}.skip{position:absolute;left:1rem;top:-5rem;background:white;padding:10px;z-index:2}.skip:focus{top:1rem}.top{border-bottom:1px solid var(--line)}.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 0}.brand{display:flex;align-items:center;gap:12px;font-weight:700;text-decoration:none;color:var(--ink)}.mark{display:grid;place-items:center;background:var(--green);color:white;border-radius:8px;width:35px;height:35px;font:600 15px var(--mono)}nav{display:flex;flex-wrap:wrap;gap:8px 25px}nav a{font-size:14px;text-decoration:none;font-weight:600}nav a:hover{text-decoration:underline}
 .hero{display:grid;grid-template-columns:1.06fr 1fr;gap:40px;align-items:center;padding:68px 0 58px}.eyebrow,.label{font:500 .72rem/1.5 var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--green)}h1,h2,h3,p{margin:0}h1{font-size:clamp(3.6rem,8.2vw,7.4rem);letter-spacing:-.095em;line-height:.88;margin:18px 0 24px}h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.055em;line-height:1.02}h3{font-size:1.3rem;letter-spacing:-.025em;line-height:1.2}.intro{max-width:425px;color:var(--muted);font-size:1.13rem}.actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px;margin-top:26px}.button{display:inline-block;border:1px solid var(--green);border-radius:6px;padding:10px 15px;background:var(--green);color:white;text-decoration:none;font-weight:600;font-size:.91rem}.button:hover{background:#24634a}.quiet{font-weight:600;font-size:.92rem}.diagram{margin:0;background:var(--dark);color:white;border-radius:12px;padding:24px 24px 18px;overflow:hidden}.diagram figcaption{font:500 .72rem var(--mono);letter-spacing:.07em;text-transform:uppercase;color:#d0e5d6}.diagram canvas{display:block;width:100%;aspect-ratio:1.6}.diagram p{font:.7rem var(--mono);color:#d0e5d6}
-.section{border-top:1px solid var(--line);padding:40px 0 48px;scroll-margin-top:12px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px 20px;margin-bottom:24px}.section-head p,.note{color:var(--muted);font-size:.94rem}.people,.course-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.person{background:#eeefe5;border:1px solid var(--line);border-radius:9px;display:flex;align-items:center;gap:16px;padding:19px}.avatar{width:48px;height:48px;flex:none;display:grid;place-items:center;background:#dce6d6;color:var(--green);border-radius:50%;font:600 .95rem var(--mono)}.person h3{margin:3px 0}.person a{font-size:.88rem}.note{margin-top:13px}
+.section{border-top:1px solid var(--line);padding:40px 0 48px;scroll-margin-top:12px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px 20px;margin-bottom:24px}.section-head p,.note{color:var(--muted);font-size:.94rem}.people,.course-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.person{background:#eeefe5;border:1px solid var(--line);border-radius:9px;display:flex;align-items:center;gap:16px;padding:19px}.avatar{width:48px;height:48px;flex:none;display:grid;place-items:center;background:#dce6d6;color:var(--green);border-radius:50%;font:600 .95rem var(--mono)}.instructor-card{max-width:550px}.ta-list{list-style:none;padding:0;margin:16px 0 0;grid-template-columns:repeat(3,minmax(0,1fr))}.ta-list .person{height:100%;padding:15px;gap:12px}.ta-list .avatar{width:36px;height:36px;font-size:.75rem}.ta-list h3{font-size:1rem}.head-ta{max-width:550px}.person h3{margin:3px 0}.person a{font-size:.88rem}.note{margin-top:13px}
 .course-grid{grid-template-columns:1.25fr .75fr;gap:30px}.chapters{list-style:none;counter-reset:chapter;padding:0;margin:0;border-top:1px solid var(--line)}.chapters li{counter-increment:chapter;display:flex;gap:18px;align-items:baseline;border-bottom:1px solid var(--line);padding:8px 5px}.chapters li::before{content:counter(chapter,decimal-leading-zero);font:.76rem var(--mono);color:var(--green)}.side{display:grid;gap:14px;align-content:start}.box{border:1px solid var(--line);border-radius:9px;padding:18px 20px}.box h3{margin:4px 0 8px}.box p{color:var(--muted);font-size:.91rem;margin:6px 0}.grades{margin:7px 0 0}.grades div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:4px 0}.grades div:last-child{border:0}.grades dd{margin:0;font:500 .8rem/1.9 var(--mono)}
 .archive{border-top:1px solid var(--line)}details{border-bottom:1px solid var(--line)}summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 5px;font-weight:700}summary::-webkit-details-marker{display:none}summary::after{content:"+";font:500 1rem var(--mono);color:var(--green)}details[open] summary::after{content:"−"}details ul{margin:0 0 12px;padding-left:25px}details a{font-weight:600}.archive-link{margin-top:18px}.footer{background:var(--dark);color:#e3eee5;padding:24px 0}.footer .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.footer a{color:var(--lime)}
-@media(max-width:760px){.wrap{width:calc(100% - 36px)}.top .wrap{align-items:flex-start;flex-direction:column;gap:12px}.hero,.course-grid{grid-template-columns:1fr}.hero{gap:26px;padding:42px 0 36px}.section{padding:30px 0 35px}.section-head{align-items:start;flex-direction:column}}@media(max-width:480px){.people{grid-template-columns:1fr}.diagram{padding:16px}nav{gap:8px 15px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(max-width:760px){.ta-list{grid-template-columns:repeat(2,minmax(0,1fr))}.wrap{width:calc(100% - 36px)}.top .wrap{align-items:flex-start;flex-direction:column;gap:12px}.hero,.course-grid{grid-template-columns:1fr}.hero{gap:26px;padding:42px 0 36px}.section{padding:30px 0 35px}.section-head{align-items:start;flex-direction:column}}@media(max-width:480px){.people{grid-template-columns:1fr}.diagram{padding:16px}nav{gap:8px 15px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body id="top">
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap">
 <a class="brand" href="#top"><span class="mark" aria-hidden="true">CS</span> Computer Simulation</a>
-<nav aria-label="Course navigation"><a href="#team">Teaching team</a><a href="#syllabus">Syllabus</a><a href="#textbook">Textbook</a><a href="#archive">Past semesters</a></nav>
+<nav aria-label="Course navigation"><a href="#instructor">Instructor</a><a href="#team">TAs</a><a href="#syllabus">Syllabus</a><a href="#textbook">Textbook</a><a href="#archive">Past semesters</a></nav>
 </div></header>
 <main class="wrap" id="main">
 <section class="hero" aria-labelledby="title">
@@ -31,15 +31,25 @@
 <div class="actions"><a class="button" href="#syllabus">Explore the syllabus <span aria-hidden="true">↓</span></a><a class="quiet" href="#archive">Past semesters <span aria-hidden="true">↗</span></a></div></div>
 <figure class="diagram"><figcaption>A discrete-event simulation trace</figcaption>
 <canvas id="trace" width="480" height="300" role="img" aria-label="Queue length starts at zero, rises to one and then two after arrivals, falls to one after a departure, rises to two and then three after arrivals, then falls to two and one after departures."></canvas>
-<p>Example · Each arrival or departure changes the queue length.</p></figure>
+<p>Each arrival or departure changes the queue length.</p></figure>
+</section>
+<section class="section" id="instructor" aria-labelledby="instructor-title">
+<div class="section-head"><h2 id="instructor-title">Instructor</h2></div>
+<article class="person instructor-card"><span class="avatar" aria-hidden="true">BS</span><div><h3>Prof. Bardia Safaei</h3><strong><em></em></strong></div></article>
 </section>
 <section class="section" id="team" aria-labelledby="team-title">
-<div class="section-head"><h2 id="team-title">Teaching team</h2></div>
-<div class="people">
-<article class="person"><span class="avatar" aria-hidden="true">BS</span><div><p class="label">Instructor</p><h3>Dr. Bardia Safaei</h3><span>RADIAN Research Laboratory</span></div></article>
-<article class="person"><span class="avatar" aria-hidden="true">MM</span><div><p class="label">Head teaching assistant</p><h3>Mohamad Marandi</h3></div></article>
-</div>
-<p class="note">See the semester archive for past teaching teams.</p>
+<div class="section-head"><h2 id="team-title">Teaching assistants</h2></div>
+<article class="person head-ta"><span class="avatar" aria-hidden="true">MM</span><div><p class="label">Head teaching assistant</p><h3>Mohamad Marandi</h3></div></article>
+<ul class="people ta-list">
+<li class="person"><span class="avatar" aria-hidden="true">MM</span><h3>Mhdyr Mostashar</h3></li>
+<li class="person"><span class="avatar" aria-hidden="true">MK</span><h3>Mahbod Khaleti</h3></li>
+<li class="person"><span class="avatar" aria-hidden="true">TI</span><h3>Taha Izadi</h3></li>
+<li class="person"><span class="avatar" aria-hidden="true">SH</span><h3>Seyed Moeen Hosseini</h3></li>
+<li class="person"><span class="avatar" aria-hidden="true">SF</span><h3>Sarina Farzadnasab</h3></li>
+<li class="person"><span class="avatar" aria-hidden="true">MT</span><h3>Mazdak Teymori</h3></li>
+<li class="person"><span class="avatar" aria-hidden="true">PH</span><h3>Parsa Hajighasemi</h3></li>
+</ul>
+<p class="note"><a href="#archive">See past teaching teams</a></p>
 </section>
 <section class="section" id="syllabus" aria-labelledby="syllabus-title">
 <div class="section-head"><h2 id="syllabus-title">Syllabus</h2><p>The course introduction outlines 8–10 chapters.</p></div>
@@ -70,13 +80,20 @@
 const canvas = document.querySelector('#trace');
 const ctx = canvas.getContext('2d');
 
+const events = [[.12, 1], [.24, 2], [.39, 1], [.50, 2], [.62, 3], [.78, 2], [.89, 1]];
+
 function drawTrace() {
   const width = canvas.clientWidth;
   const height = canvas.clientHeight;
   const scale = window.devicePixelRatio || 1;
-  canvas.width = Math.round(width * scale);
-  canvas.height = Math.round(height * scale);
+  const pixelWidth = Math.round(width * scale);
+  const pixelHeight = Math.round(height * scale);
+  if (canvas.width !== pixelWidth || canvas.height !== pixelHeight) {
+    canvas.width = pixelWidth;
+    canvas.height = pixelHeight;
+  }
   ctx.setTransform(scale, 0, 0, scale, 0, 0);
+  ctx.clearRect(0, 0, width, height);
 
   const left = 26, right = width - 12, top = 46, bottom = height - 37;
   const x = time => left + time * (right - left);
@@ -98,7 +115,6 @@ function drawTrace() {
     ctx.fillText(length, 7, y(length) + 4);
   }
 
-  const events = [[.12, 1], [.24, 2], [.39, 1], [.50, 2], [.62, 3], [.78, 2], [.89, 1]];
   ctx.strokeStyle = '#dcf292';
   ctx.lineWidth = 2.5;
   ctx.lineJoin = 'round';
@@ -121,8 +137,10 @@ function drawTrace() {
   }
 }
 
-drawTrace();
-window.addEventListener('resize', drawTrace);
+if (ctx) {
+  drawTrace();
+  window.addEventListener('resize', drawTrace);
+}
 </script>
 </body>
 </html>
